@@ -11,6 +11,6 @@ public class Rock {
 	}
 
 	Paper vs(Paper paper) {
-		return paper;
+		return paper.vs(this);
 	}
 }

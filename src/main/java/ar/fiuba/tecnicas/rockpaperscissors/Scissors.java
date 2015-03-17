@@ -11,6 +11,6 @@ public class Scissors {
 	}
 
 	Rock vs(Rock rock) {
-		return rock;
+		return rock.vs(this);
 	}
 }

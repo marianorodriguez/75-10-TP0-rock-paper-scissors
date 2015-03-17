@@ -11,6 +11,6 @@ public class Paper {
 	}
 
 	Scissors vs(Scissors scissors) {
-		return scissors;
+		return scissors.vs(this);
 	}
 }
